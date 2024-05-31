@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+    .info ul::after{
+    display: none;
+    }
+    .info ul::before{
+        display: none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .info ul::after{
+        width: 10%;
+        right: 0px;
+    }
+    .info ul::before{
+        width: 10%;
+        left: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .info ul::after{
+        width: 20%;
+    }
+    .info ul::before{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+
+        .info ul::after{
+        width: 20%;
+    }
+    .info ul::before{
+        width: 20%;
+    }
+}
